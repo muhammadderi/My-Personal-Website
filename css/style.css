@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #6096b4;
+  color: white;
+  height: 100px;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav {
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+.exp {
+  padding-left: 20px;
+}
+
+#education,
+#skills {
+  background-color: #6096b4;
+  color: white;
+}
+
+article {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #6096b4;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  width: 24%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+a:hover {
+  color: black;
+}
+
+section li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.hs {
+  padding-top: 10px;
+}
+
+.sfsl {
+  padding-bottom: 10px;
+}
+.skls {
+  height: 20px;
+  width: 20px;
+}
+
+.softsk li {
+  border: solid 1px white;
+  border-radius: 20px;
+  padding: 3px 5px;
+}
+.dery {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+@media screen and (max-width: 1200px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
