@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 * {
@@ -15,7 +15,7 @@ header {
   text-align: center;
   background-color: #6096b4;
   color: white;
-  height: 100px;
+  height: 120px;
   padding: 20px;
 }
 
